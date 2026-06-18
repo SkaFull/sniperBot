@@ -1,0 +1,45 @@
+{
+  "name": "solana-sniper-bot",
+  "version": "1.0.0",
+  "description": "Solana Sniper Bot with TPU Direct Connection",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "benchmark": "ts-node benchmarks/leader-info.benchmark.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "solana",
+    "sniper",
+    "tpu",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.5",
+    "@solana/spl-token": "^0.4.8",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "prom-client": "^15.1.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
