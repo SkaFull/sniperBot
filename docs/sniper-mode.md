@@ -1,3 +1,5 @@
+[简体中文](./sniper-mode.md) | [English](./sniper-mode_EN.md) | [繁體中文](./sniper-mode_HK.md)
+
 # Solana 狙击模式（极速通道）详细实现方案
 
 ## 目录

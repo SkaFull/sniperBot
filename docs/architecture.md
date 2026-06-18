@@ -1,3 +1,5 @@
+[简体中文](./architecture.md) | [English](./architecture_EN.md) | [繁體中文](./architecture_HK.md)
+
 # Solana 狙击机器人完整架构方案
 
 ## 目录

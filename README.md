@@ -1,3 +1,5 @@
+[简体中文](./README.md) | [English](./README_EN.md) | [繁體中文](./README_HK.md)
+
 # Solana Sniper Bot
 
 高性能 Solana 狙击机器人，完整实现狙击功能链路。
@@ -287,7 +289,7 @@ sellStrategy.onSell((signal) => {
 
 ## 架构方案
 
-详见 [狙击模式实现方案.md](./狙击模式实现方案.md)
+详见 [狙击模式实现方案](./docs/sniper-mode.md) | [架构方案文档](./docs/architecture.md)
 
 ## 课程参考
 
@@ -310,6 +312,16 @@ sellStrategy.onSell((signal) => {
 - 代码错误可能导致私钥泄露或资金被耗尽
 - 本项目仅教授技术原理，**绝非投资建议**
 - 请在 Devnet 测试网充分测试后再考虑主网部署
+
+## ☕ 捐赠
+
+如果这个项目对你有帮助，欢迎请作者喝杯咖啡 ☕
+
+| 链类型 | 地址 |
+|--------|------|
+| Ethereum (ETH) | `0x2CfBca7DBb0eef8ced407b69C54981fa3348a9Ff` |
+| Solana (SOL) | `9tMTcoFRTSCGmhVnsuHCmrguKcCjHyfacm4NbBTcuJ1C` |
+| BNB Chain (BNB) | `0x2CfBca7DBb0eef8ced407b69C54981fa3348a9Ff` |
 
 ## License
 
